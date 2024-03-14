@@ -1,0 +1,6 @@
+<routes id="camel" xmlns="http://camel.apache.org/schema/spring">
+    <route id="route-from-dependency">
+        <from uri="direct:route-from-dependency"/>
+        <log message="Hello there 👋🏻"/>
+    </route>
+</routes>
